@@ -1,0 +1,98 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Alteração das funções sexuais
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração das funções sexuais
+
+    '1':
+      title: Com risco de alteração das funções sexuais
+
+      subqualifier:
+        '0':
+          title: Fase de desejo
+
+        '1':
+          title: Fase de excitação
+
+        '2':
+          title: Fase orgástica
+
+        '3':
+          title: Fase resolução
+
+        '4':
+          title: Alteração de mais de uma fase
+
+- title: Alteração da função muscular assoalho pélvico
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração função muscular assoalho pélvico
+
+    '1':
+      title: Com risco de alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Associação de mais de uma alteração
+
+- title: Risco de Dor
+
+  qualifier:
+    '0':
+      title: Sem risco para dor
+
+    '1':
+      title: Com risco para dor
+
+- title: Alteração das funções de menstruação ou pós-menopausa
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de menstruação ou pós-menopausa
+
+    '1':
+      title: Com risco de alteração de menstruação ou pós-menopausa
+
+      subqualifier:
+        '0':
+          title: Menarca
+
+        '1':
+          title: Menacme
+
+        '2':
+          title: Climatério
+
+        '3':
+          title: Pós-menopausa/alteração vasomotora

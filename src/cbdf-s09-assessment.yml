@@ -1,0 +1,102 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Alteração das funções de defecação
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração das funções de defecação
+
+    '1':
+      title: Com risco de alteração das funções de defecação
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Incontinência de flatos
+
+        '4':
+          title: Outros tipos de alteração
+
+- title: Alteração da função muscular assoalho pélvico
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração da função muscular assoalho pélvico
+
+    '1':
+      title: Com risco de alteração da função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Assoalho pélvico funcional - sem dissinergia abdomino-pélvica
+                 na evacuação
+
+        '1':
+          title: Assoalho pélvico funcional - com dissinergia abdomino-pélvica
+                 na evacuação
+
+        '2':
+          title: Assoalho pélvico disfuncional - sem dissinergia
+                 abdomino-pélvica na evacuação
+
+        '3':
+          title: Assoalho pélvico disfuncional - com dissinergia
+                 abdomino-pélvica na evacuação
+
+- title: Risco de Dor
+
+  qualifier:
+    '0':
+      title: Sem risco para dor
+
+    '1':
+      title: Com risco para dor
+
+- title: Alteração das funções de eliminação fecal
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração das funções de eliminação fecal
+
+    '1':
+      title: Com risco de alteração das funções de eliminação fecal
+
+      subqualifier:
+        '0':
+          title: Constipação
+
+        '1':
+          title: Diarréia
+
+        '2':
+          title: Alteração de consistência fecal
+
+        '3':
+          title: Alteração de frequência de defecação e da consistência fecal
+
+        '4':
+          title: Necessidade de uso de manobras manuais ou outras
+
+        '5':
+          title: Associação de mais de uma alteração

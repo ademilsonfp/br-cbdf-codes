@@ -1,0 +1,233 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Função autonômica
+  cif: [b279, b599, b639, b499, b429]
+
+  qualifier:
+    '0':
+      title: Função autonômica preservada
+
+    '1':
+      title: Leve redução na função autonômica
+
+    '2':
+      title: Moderada redução na função autonômica
+
+    '3':
+      title: Grave redução na função autonômica
+
+    '4':
+      title: Completa redução na função autonômica
+
+    '8':
+      title: 'Função autonômica: Não especificada'
+
+    '9':
+      title: 'Função autonômica: Não aplicável'
+
+- title: Força
+  cif: [b7308]
+
+  qualifier:
+    '0':
+      title: Força preservada
+
+    '1':
+      title: Leve redução de força
+
+    '2':
+      title: Moderada redução de força
+
+    '3':
+      title: Grave redução de força
+
+    '4':
+      title: Completa redução de força
+
+    '8':
+      title: 'Força: Não especificada'
+
+    '9':
+      title: 'Força: Não aplicável'
+
+- title: Funções sensoriais
+  cif: [b265]
+
+  qualifier:
+    '0':
+      title: Funções sensoriais normais
+
+    '4':
+      title: Funções sensoriais alteradas
+
+      subqualifier:
+        '0':
+          title: Sensibilidade tátil e/ou proprioceptiva aumentada
+
+        '1':
+          title: Sensibilidade tátil e proprioceptiva reduzida
+
+        '2':
+          title: Sensibilidade térmica aumentada
+
+        '3':
+          title: Sensibilidade térmica reduzida
+
+        '4':
+          title: Sensação de dor aumentada
+
+        '5':
+          title: Sensação de dor reduzida
+
+        '6':
+          title: Alteração da função vestibular
+
+        '7':
+          title: Alteração na função visuoespacial
+
+    '8':
+      title: 'Funções sensoriais: Não especificada'
+
+    '9':
+      title: 'Funções sensoriais: Não aplicável'
+
+- title: Segmento
+
+  qualifier:
+    '0':
+      title: 'Afetando cabeça'
+
+      area:
+        '0':
+          title: Hemiface direita
+
+        '1':
+          title: Hemiface esquerda
+
+        '2':
+          title: Face
+
+        '3':
+          title: Terço inferior de face
+
+        '4':
+          title: Olho esquerdo
+
+        '5':
+          title: Olho direito
+
+        '6':
+          title: Olhos
+
+        '7':
+          title: Labirinto vestibular direito
+
+        '8':
+          title: Labirinto vestibular esquerdo
+
+    '1':
+      title: Afetando tronco
+
+      area:
+        '0':
+          title: Torácica
+
+        '1':
+          title: Lombar
+
+        '2':
+          title: Sacral
+
+        '3':
+          title: Cervical
+
+    '2':
+      title: Afetando hemicorpo
+
+      area:
+        '0':
+          title: Direito
+
+        '1':
+          title: Esquerdo
+
+    '3':
+      title: Afetando membros
+
+      area:
+        '0':
+          title: MMII
+
+        '1':
+          title: MMSS
+
+        '2':
+          title: Todos
+
+    '4':
+      title: Afetando um segmento ou parte do corpo
+
+      area:
+        '0':
+          title: Braço direito
+
+        '1':
+          title: Braço esquerdo
+
+        '2':
+          title: Antebraço direito
+
+        '3':
+          title: Antebraço esquerdo
+
+        '4':
+          title: Mão direita
+
+        '5':
+          title: Mão esquerda
+
+        '6':
+          title: Pelve
+
+        '7':
+          title: Coxa direita
+
+        '8':
+          title: Coxa esquerda
+
+        '9':
+          title: Perna direita
+
+        '10':
+          title: Perna esquerda
+
+        '11':
+          title: Tornozelo e pé direito
+
+        '12':
+          title: Tornozelo e pé esquerdo
+
+        '13':
+          title: MSD
+
+        '14':
+          title: MSE
+
+        '15':
+          title: MID
+
+        '16':
+          title: MIE

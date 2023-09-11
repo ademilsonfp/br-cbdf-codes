@@ -1,0 +1,96 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Alteração de capacidade aeróbica
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de capacidade aeróbica
+
+    '1':
+      title: Com risco de alteração de capacidade aeróbica
+
+      subqualifier:
+        '0':
+          title: 'Leve redução: 5 a 6 METS'
+
+        '1':
+          title: 'Moderada redução: 3 a 49 METS'
+
+        '2':
+          title: 'Grave redução: < 3 METS'
+
+- title: Alteração da função dos vasos
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração da função dos vasos
+
+    '1':
+      title: Com risco de alteração da função dos vasos
+
+      subqualifier:
+        '0':
+          title: Arterial-leve
+
+        '1':
+          title: Arterial-moderada
+
+        '2':
+          title: Arterial-grave
+
+        '3':
+          title: Venoso-leve
+
+        '4':
+          title: Venoso-moderado
+
+        '5':
+          title: Venoso-grave
+
+        '6':
+          title: Linfática
+
+- title: Alteração de fatigabilidade
+
+  qualifier:
+    '0':
+      title: Sem risco fatigabilidade
+
+    '1':
+      title: Com risco fatigabilidade
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+- title: Alteração de frequência cardíaca
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de frequência cardíaca
+
+    '1':
+      title: Com risco de alteração de frequência cardíaca
+
+      subqualifier:
+        '0':
+          title: Sem medicação
+
+        '1':
+          title: Com medicação

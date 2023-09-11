@@ -1,0 +1,168 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Capacidade Aeróbica(CA)
+  cif: [b4551]
+
+  qualifier:
+    '0':
+      title: 'Boa CA: ≥ 7 METS'
+
+    '4':
+      title: 'CA alterada: < 7 METS'
+
+      subqualifier:
+        '0':
+          title: 'Leve redução: 5 a 6 METS'
+
+        '1':
+          title: 'Moderada redução: 3 a 49 METS'
+
+        '2':
+          title: 'Grave redução: < 3 METS'
+
+    '8':
+      title: 'CA: Não especificada'
+
+    '9':
+      title: 'CA: Não aplicável'
+
+
+- title: Funções dos vasos
+  cif: [b415]
+
+  qualifier:
+    '0':
+      title: Sem alteração das funções dos vasos
+
+    '4':
+      title: Com alteração das funções dos vasos
+
+      subqualifier:
+        '0':
+          title: Arterial-leve
+
+        '1':
+          title: Arterial-moderada
+
+        '2':
+          title: Arterial-grave
+
+        '3':
+          title: Venoso-leve
+
+        '4':
+          title: Venoso-moderado
+
+        '5':
+          title: Venoso-grave
+
+        '6':
+          title: Linfática
+
+    '8':
+      title: 'Funções dos vasos: Não especificada'
+
+    '9':
+      title: 'Funções dos vasos: Não aplicável'
+
+
+- title: Fatigabilidade
+  cif: [b4552]
+
+  note : >-
+     Este caracterizador funcional pode ser avaliado com o indivíduo em repouso
+     ou durante esforço.
+
+  qualifier:
+    '0':
+      title: Nenhuma fadiga
+
+    '1':
+      title: Leve fadiga
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+    '2':
+      title: Moderada fadiga
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+    '3':
+      title: Grave fadiga
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+    '4':
+      title: Completa fadiga
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+    '8':
+      title: 'Fatigabilidade: Não especificada'
+
+    '9':
+      title: 'Fatigabilidade: Não aplicável'
+
+
+- title: Frequência cardíaca
+  cif: [b4100]
+
+  qualifier:
+    '0':
+      title: Sem alteração da frequência cardíaca
+
+      subqualifier:
+        '0':
+          title: Sem medicação
+
+        '1':
+          title: Com medicação
+
+    '4':
+      title: Com alteração da frequência cardíaca
+
+      subqualifier:
+        '0':
+          title: Sem medicação
+
+        '1':
+          title: Com medicação
+
+    '8':
+      title: 'Frequência Cardíaca: Não especificada'
+
+    '9':
+      title: 'Frequência Cardíaca: Não aplicável'

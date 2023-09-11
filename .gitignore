@@ -1,0 +1,7 @@
+
+/node_modules
+/coverage
+/lib
+/package-lock.json
+/*.tgz
+/ts/code.ts

@@ -1,0 +1,112 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Capacidade Aeróbica (CA)
+  cif: [b4551]
+
+  qualifier:
+    '0':
+      title: 'Boa CA: ≥ 7 METS'
+
+    '4':
+      title: 'CA alterada: < 7 METS'
+
+      subqualifier:
+        '0':
+          title: 'Leve redução: 5 a 6 METS'
+
+        '1':
+          title: 'Moderada redução: 3 a 49 METS'
+
+        '2':
+          title: 'Grave redução: < 3 METS'
+
+    '8':
+      title: 'CA: Não especificada'
+
+    '9':
+      title: 'CA: Não aplicável'
+
+- title: Massa corporal
+
+  qualifier:
+    '0':
+      title: Sem alteração da massa corporal
+
+    '1':
+      title: Leve alteração da massa corporal
+
+    '2':
+      title: Moderada alteraçao da massa corporal
+
+    '3':
+      title: Grave alteração da massa corporal
+
+    '4':
+      title: Completa alteração da massa corporal
+
+    '8':
+      title: 'Massa corporal: Não especificada'
+
+    '9':
+      title: 'Massa corporal: Não aplicável'
+
+- title: Gordura corporal
+
+  qualifier:
+    '0':
+      title: Sem alteração da gordura corporal
+
+    '1':
+      title: Leve alteração da gordura corporal
+
+    '2':
+      title: Moderada alteração da gordura corporal
+
+    '3':
+      title: Grave alteração da gordura corporal
+
+    '4':
+      title: Completa alteração da gordura corporal
+
+    '8':
+      title: 'Gordura corporal: Não especificada'
+
+    '9':
+      title: 'Gordura corporal: Não aplicável'
+
+- title: Massa muscular global
+
+  qualifier:
+    '0':
+      title: Sem alteração da massa muscular global
+
+    '1':
+      title: Leve alteração da massa muscular global
+
+    '2':
+      title: Moderada alteração da massa muscular global
+
+    '3':
+      title: Grave alteração da massa muscular global
+
+    '4':
+      title: Completa alteração da massa muscular global
+
+    '8':
+      title: 'Massa muscular global: Não especificada'
+
+    '9':
+      title: 'Massa muscular global: Não aplicável'

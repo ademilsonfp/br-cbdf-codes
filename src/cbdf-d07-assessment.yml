@@ -1,0 +1,318 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Funções de bexiga
+  cif: [b620]
+
+  qualifier:
+    '0':
+      title: Sem alteração nas funções de bexiga
+
+    '1':
+      title: Leve alteração nas funções de bexiga
+
+    '2':
+      title: Moderada alteração nas funções de bexiga
+
+    '3':
+      title: Grave alteração nas funções de bexiga
+
+    '4':
+      title: Completa alteração nas funções de bexiga
+
+    '8':
+      title: 'Funções de bexiga: Não especificada'
+
+    '9':
+      title: 'Funções de bexiga: Não aplicável'
+
+- title: Função muscular do assoalho pélvico
+  cif: [b730-b749]
+
+  qualifier:
+    '0':
+      title: Sem alteração função muscular assoalho pélvico
+
+    '1':
+      title: Leve alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Ausência de contração
+
+        '6':
+          title: Associação de mais de uma
+
+    '2':
+      title: Moderada alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Ausência de contração
+
+        '6':
+          title: Associação de mais de uma
+
+    '3':
+      title: Grave alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Ausência de contração
+
+        '6':
+          title: Associação de mais de uma
+
+    '4':
+      title: Completa alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Ausência de contração
+
+        '6':
+          title: Associação de mais de uma
+
+    '8':
+      title: 'Função muscular assoalho pélvico: Não especificada'
+
+    '9':
+      title: 'Função muscular assoalho pélvico: Não aplicável'
+
+- title: Sensações associadas funções urinárias
+  cif: [b610-b639]
+
+  qualifier:
+    '0':
+      title: Sem alteração sensações associadas funções urinárias
+
+    '1':
+      title: Leve alteração sensações associadas funções urinárias
+
+      subqualifier:
+        '0':
+          title: Aumento sensação enchimento bexiga
+
+        '1':
+          title: Diminuição sensação enchimento bexiga
+
+        '2':
+          title: Ausência sensação enchimento e desejo urinar
+
+        '3':
+          title: Dor e ardência urinar
+
+        '4':
+          title: Sensação esvaziamento incompleto da urina
+
+    '2':
+      title: Moderada alteração sensações associadas funções urinárias
+
+      subqualifier:
+        '0':
+          title: Aumento sensação enchimento bexiga
+
+        '1':
+          title: Diminuição sensação enchimento bexiga
+
+        '2':
+          title: Ausência sensação enchimento e desejo urinar
+
+        '3':
+          title: Dor e ardência urinar
+
+        '4':
+          title: Sensação esvaziamento incompleto da urina
+
+    '3':
+      title: Grave alteração sensações associadas funções urinárias
+
+      subqualifier:
+        '0':
+          title: Aumento sensação enchimento bexiga
+
+        '1':
+          title: Diminuição sensação enchimento bexiga
+
+        '2':
+          title: Ausência sensação enchimento e desejo urinar
+
+        '3':
+          title: Dor e ardência urinar
+
+        '4':
+          title: Sensação esvaziamento incompleto da urina
+
+    '4':
+      title: Completa alteração sensações associadas funções urinárias
+
+      subqualifier:
+        '0':
+          title: Aumento sensação enchimento bexiga
+
+        '1':
+          title: Diminuição sensação enchimento bexiga
+
+        '2':
+          title: Ausência sensação enchimento e desejo urinar
+
+        '3':
+          title: Dor e ardência urinar
+
+        '4':
+          title: Sensação esvaziamento incompleto da urina
+
+    '8':
+      title: 'Sensações associadas funções urinárias: Não especificada'
+
+    '9':
+      title: 'Sensações associadas funções urinárias: Não aplicável'
+
+- title: Continência Urinária
+  cif: [b6202]
+
+  qualifier:
+    '0':
+      title: Sem alteração continência urinária
+
+    '1':
+      title: Leve alteração continência urinária
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Outros tipos de alteração
+
+    '2':
+      title: Moderada alteração continência urinária
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Outros tipos de alteração
+
+    '3':
+      title: Grave alteração continência urinária
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Outros tipos de alteração
+
+    '4':
+      title: Completa alteração continência urinária
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Outros tipos de alteração
+
+    '8':
+      title: 'Continência urinária: Não especificada'
+
+    '9':
+      title: 'Continência urinária: Não aplicável'

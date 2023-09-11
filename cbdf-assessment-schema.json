@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/CbdfAssessmentFile",
+  "definitions": {
+    "CbdfAssessmentFile": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/CbdfAssessment"
+      }
+    },
+    "CbdfAssessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cif": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CbdfCifCode"
+          }
+        },
+        "note": {
+          "type": "string"
+        },
+        "qualifier": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CbdfQualifier"
+          },
+          "propertyNames": {
+            "pattern": "^\\d$"
+          }
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "qualifier",
+        "title"
+      ]
+    },
+    "CbdfCifCode": {
+      "type": "string",
+      "pattern": "^(b\\d)\\d{2}-\\1\\d{2}|b\\d{3,}$"
+    },
+    "CbdfQualifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "subqualifier": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CbdfMinDef"
+          },
+          "propertyNames": {
+            "pattern": "^\\d+$"
+          }
+        },
+        "area": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/CbdfMinDef"
+          },
+          "propertyNames": {
+            "pattern": "^\\d+$"
+          }
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ]
+    },
+    "CbdfMinDef": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,232 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Funções sensoriais
+  cif: [b270]
+
+  qualifier:
+    '0':
+      title: Sem alteração sensorial
+
+    '1':
+      title: Leve alteração sensorial
+
+    '2':
+      title: Moderada alteração sensorial
+
+    '3':
+      title: Grave alteração sensorial
+
+    '4':
+      title: Completa alteração sensorial
+
+    '8':
+      title: 'Funções sensoriais: Não especificada'
+
+    '9':
+      title: 'Funções sensoriais: Não aplicável'
+
+- title: Mobilidade articular
+  cif: [b710]
+
+  qualifier:
+    '0':
+      title: Mobilidade articular completa
+
+    '1':
+      title: Leve redução da mobilidade articular
+
+    '2':
+      title: Moderada redução de mobilidade articular
+
+    '3':
+      title: Grave redução da mobilidade articular
+
+    '4':
+      title: Completa redução da mobilidade articular
+
+    '8':
+      title: 'Mobilidade Articular: Não especificada'
+
+    '9':
+      title: 'Mobilidade Articular: Não aplicável'
+
+- title: Dor
+  cif: [b2801]
+
+  qualifier:
+    '0':
+      title: Nenhuma dor
+
+    '1':
+      title: Leve dor
+
+    '2':
+      title: Moderada dor
+
+    '3':
+      title: Grave dor
+
+    '4':
+      title: Dor insuportável
+
+    '8':
+      title: 'Dor: Não especificada'
+
+    '9':
+      title: 'Dor: Não aplicável'
+
+- title: Segmento
+
+  qualifier:
+    '0':
+      title: Afetando cabeça
+
+      area:
+        '0':
+          title: Articulação temporomandibular
+
+        '1':
+          title: Crânio
+
+        '2':
+          title: Face
+
+
+    '1':
+      title: Afetando coluna
+
+      area:
+        '0':
+          title: Cervical
+
+        '1':
+          title: Torácica
+
+        '2':
+          title: Lombar
+
+        '3':
+          title: Sacro e coccix
+
+        '4':
+          title: Mais de um segmento
+
+
+    '2':
+      title: Afetando coluna e membros
+
+      area:
+        '0':
+          title: Coluna e MS
+
+        '1':
+          title: Coluna e MI
+
+        '2':
+          title: Coluna e MMSS
+
+        '3':
+          title: Coluna e MMII
+
+        '4':
+          title: Coluna MMII e MMSS
+
+
+    '3':
+      title: Afetando um segmento ou parte do corpo
+
+      area:
+        '0':
+          title: MSD
+
+        '1':
+          title: MSE
+
+        '2':
+          title: MID
+
+        '3':
+          title: MIE
+
+        '4':
+          title: Ombro direito
+
+        '5':
+          title: Ombro esquerdo
+
+        '6':
+          title: Cotovelo direito
+
+        '7':
+          title: Cotovelo esquerdo
+
+        '8':
+          title: Punho e/ou dedos direito
+
+        '9':
+          title: Punho e/ou dedos esquerdo
+
+        '10':
+          title: Abdome
+
+        '11':
+          title: Quadril direito
+
+        '12':
+          title: Quadril esquerdo
+
+        '13':
+          title: Pelve
+
+        '14':
+          title: Joelho direito
+
+        '15':
+          title: Joelho esquerdo
+
+        '16':
+          title: Tornozelo e/ou pé direito
+
+        '17':
+          title: Tornozelo e/ou pé esquerdo
+
+    '4':
+      title: Afetando mais de uma parte do corpo
+
+      area:
+        '0':
+          title: MMII
+
+        '1':
+          title: MMSS
+
+        '2':
+          title: Ombros
+
+        '3':
+          title: Cotovelos
+
+        '4':
+          title: Punhos e/ou dedos
+
+        '5':
+          title: Quadril direito e esquerdo
+
+        '6':
+          title: Joelhos
+
+        '7':
+          title: Tornozelos e/ou dedos

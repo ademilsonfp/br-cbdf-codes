@@ -1,0 +1,297 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Funções mentais
+  cif: [b110-b139]
+
+  qualifier:
+    '0':
+      title: Sem alteração das funções mentais
+
+    '1':
+      title: Leve alteração das funções mentais
+
+      subqualifier:
+        '0':
+          title: Alteração nível de consciência
+
+        '1':
+          title: Alteração cognitiva
+
+    '2':
+      title: Moderada alteração das funções mentais
+
+      subqualifier:
+        '0':
+          title: Alteração nível de consciência
+
+        '1':
+          title: Alteração cognitiva
+
+    '3':
+      title: Grave alteração das funções mentais
+
+      subqualifier:
+        '0':
+          title: Alteração nível de consciência
+
+        '1':
+          title: Alteração cognitiva
+
+    '4':
+      title: Completa alteração das funções mentais
+
+      subqualifier:
+        '0':
+          title: Alteração nível de consciência
+
+        '1':
+          title: Alteração cognitiva
+
+    '8':
+      title: 'Funções mentais: Não especificada'
+
+    '9':
+      title: 'Funções mentais: Não aplicável'
+
+- title: Controle de movimento
+  cif: [b710, b715, b730, b760, b765]
+
+  qualifier:
+    '0':
+      title: Controle de movimento preservado
+
+    '1':
+      title: Leve redução no controle de movimento
+
+      subqualifier:
+        '0':
+          title: Alteração de amplitude de movimento
+
+        '1':
+          title: Alteração na coordenação motora
+
+        '2':
+          title: Alteração no controle postural
+
+        '3':
+          title: Alteração no equilíbrio
+
+        '4':
+          title: Presença de movimentos involuntários
+
+    '2':
+      title: Moderada redução no controle de movimento
+
+      subqualifier:
+        '0':
+          title: Alteração de amplitude de movimento
+
+        '1':
+          title: Alteração na coordenação motora
+
+        '2':
+          title: Alteração no controle postural
+
+        '3':
+          title: Alteração no equilíbrio
+
+        '4':
+          title: Presença de movimentos involuntários
+
+    '3':
+      title: Grave redução no controle de movimento
+
+      subqualifier:
+        '0':
+          title: Alteração de amplitude de movimento
+
+        '1':
+          title: Alteração na coordenação motora
+
+        '2':
+          title: Alteração no controle postural
+
+        '3':
+          title: Alteração no equilíbrio
+
+        '4':
+          title: Presença de movimentos involuntários
+
+    '4':
+      title: Completa redução no controle de movimento
+
+      subqualifier:
+        '0':
+          title: Alteração de amplitude de movimento
+
+        '1':
+          title: Alteração na coordenação motora
+
+        '2':
+          title: Alteração no controle postural
+
+        '3':
+          title: Alteração no equilíbrio
+
+        '4':
+          title: Presença de movimentos involuntários
+
+    '8':
+      title: 'Controle de movimento: Não especificada'
+
+    '9':
+      title: 'Controle de movimento: Não aplicável'
+
+- title: Força
+  cif: [b7308]
+
+  qualifier:
+    '0':
+      title: Força preservada
+
+    '1':
+      title: Leve redução de força
+
+    '2':
+      title: Moderada redução de força
+
+    '3':
+      title: Grave redução de força
+
+    '4':
+      title: Completa redução de força
+
+    '8':
+      title: 'Força: Não especificada'
+
+    '9':
+      title: 'Força: Não aplicável'
+
+- title: Segmento
+
+  qualifier:
+    '0':
+      title: Afetando cabeça
+
+      area:
+        '0':
+          title: Hemiface direita
+
+        '1':
+          title: Hemiface esquerda
+
+        '2':
+          title: Face
+
+        '3':
+          title: Terço inferior de face
+
+        '4':
+          title: Labirinto vestibular central
+
+    '1':
+      title: Afetando tronco
+
+      area:
+        '0':
+          title: Torácica
+
+        '1':
+          title: Lombar
+
+        '2':
+          title: Sacral
+
+        '3':
+          title: Cervical
+
+    '2':
+      title: Afetando hemicorpo
+
+      area:
+        '0':
+          title: Direito
+
+        '1':
+          title: Esquerdo
+
+    '3':
+      title: Afetando membros
+
+      area:
+        '0':
+          title: MMII
+
+        '1':
+          title: MMSS
+
+        '2':
+          title: Todos
+
+    '4':
+      title: Afetando um segmento ou parte do corpo
+
+      area:
+        '0':
+          title: Braço direito
+
+        '1':
+          title: Braço esquerdo
+
+        '2':
+          title: Antebraço direito
+
+        '3':
+          title: Antebraço esquerdo
+
+        '4':
+          title: Mão direita
+
+        '5':
+          title: Mão esquerda
+
+        '6':
+          title: Pelve
+
+        '7':
+          title: Coxa direita
+
+        '8':
+          title: Coxa esquerda
+
+        '9':
+          title: Perna direita
+
+        '10':
+          title: Perna esquerda
+
+        '11':
+          title: Tornozelo e pé direito
+
+        '12':
+          title: Tornozelo e pé esquerdo
+
+        '13':
+          title: MSD
+
+        '14':
+          title: MSE
+
+        '15':
+          title: MID
+
+        '16':
+          title: MIE

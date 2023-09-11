@@ -1,0 +1,406 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+D01:
+  title: Deficiência Cinético-funcional Neuroperiférica
+  type: Funcional
+
+  status:
+    '00':
+      title: Eutônica
+
+    '01':
+      title: Hipotônica
+
+  assessment: file://./cbdf-d01-assessment.yml
+
+D02:
+  title: Deficiência Cinético-funcional Neurocentral
+  type: Funcional
+
+  status:
+    '00':
+      title: Eutônica
+
+    '01':
+      title: Hipotônica
+
+    '02':
+      title: Hipertônica elástica
+
+    '03':
+      title: Hipertônica plástica
+
+    '04':
+      title: Tônus flutuante
+
+  assessment: file://./cbdf-d02-assessment.yml
+
+D03:
+  title: Deficiência Cinético-funcional Musculoesquelética
+  type: Estrutural
+
+  status:
+    '00':
+      title: Sem lesão de estrutura
+
+    '01':
+      title: Com lesão aguda de estrutura
+
+    '02':
+      title: Com lesão crônica de estrutura
+
+  assessment: file://./cbdf-d03-assessment.yml
+
+D04:
+  title: Deficiência Cinético-funcional Respiratória
+  type: Funcional e ou estrutural
+
+  status:
+    '00':
+      title: Obstrutiva de VAS e/ou VAIP
+
+      qualifier:
+        '0':
+          title: Componente secretivo
+
+        '1':
+          title: Componente não secretivo
+
+    '01':
+      title: Obstrutiva de VAIMD
+
+      qualifier:
+        '0':
+          title: Componente secretivo
+
+        '1':
+          title: Componente não secretivo
+
+    '02':
+      title: Restritiva
+
+    '03':
+      title: Baixa elastância
+
+    '04':
+      title: Neuromuscular
+
+    '05':
+      title: Não Especificada
+
+  assessment: file://./cbdf-d04-assessment.yml
+
+D05:
+  title: Deficiência Cinético-funcional Cardiovascular
+  type: Estrutural
+
+  status:
+    '00':
+      title: Sem alteração de estrutura
+
+    '01':
+      title: Com alteração de estrutura
+
+  assessment: file://./cbdf-d05-assessment.yml
+
+D06:
+  title: Deficiência Cinético-funcional Tegumentar
+  type: Funcional e ou estrutural
+
+  status:
+    '00':
+      title: Sem edema
+
+      qualifier:
+        '0':
+          title: Sem ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '1':
+          title: Sem ruptura da integridade cutânea, com alteração de pigmentação
+
+        '2':
+          title: Com ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '3':
+          title: Com ruptura da integridade cutânea, com alteração de pigmentação
+
+    '01':
+      title: Com edema agudo
+
+      qualifier:
+        '0':
+          title: Sem ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '1':
+          title: Sem ruptura da integridade cutânea, com alteração de pigmentação
+
+        '2':
+          title: Com ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '3':
+          title: Com ruptura da integridade cutânea, com alteração de pigmentação
+
+    '02':
+      title: Com edema crônico
+
+      qualifier:
+        '0':
+          title: Sem ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '1':
+          title: Sem ruptura da integridade cutânea, com alteração de pigmentação
+
+        '2':
+          title: Com ruptura da integridade cutânea, sem alteração de pigmentação
+
+        '3':
+          title: Com ruptura da integridade cutânea, com alteração de pigmentação
+
+  assessment: file://./cbdf-d06-assessment.yml
+
+D07:
+  title: Deficiência Cinético-funcional Urinária
+  type: Funcional
+
+  status:
+    '00':
+      title: Armazenamento
+
+      qualifier:
+        '0':
+          title: Sem urgência
+
+        '1':
+          title: Com urgência
+
+    '01':
+      title: Esvaziamento
+
+      qualifier:
+        '0':
+          title: Hesitação
+
+        '1':
+          title: Alteração de fluxo
+
+        '2':
+          title: Necessidade esforço/retenção urinária
+
+    '02':
+      title: Não especificada
+
+  assessment: file://./cbdf-d07-assessment.yml
+
+D08:
+  title: Deficiência Cinético-funcional Genital
+  type: Estrutural
+
+  status:
+    '00':
+      title: Sem alteração de estrutura
+
+    '01':
+      title: Com alteração de estrutura
+
+      qualifier:
+        '0':
+          title: Prolapso de orgãos pélvicos leve
+
+        '1':
+          title: Prolapso de orgãos pélvicos moderado
+
+        '2':
+          title: Prolapso de orgãos pélvicos grave
+
+        '3':
+          title: Prolapso de orgãos pélvicos completo
+
+  assessment: file://./cbdf-d08-assessment.yml
+
+D09:
+  title: Deficiência Cinético-funcional Digestória
+  type: Estrutural
+
+  status:
+    '00':
+      title: Sem alteração de estrutura
+
+    '01':
+      title: Com alteração de estrutura
+
+  assessment: file://./cbdf-d09-assessment.yml
+
+D10:
+  title: Deficiência Cinético-funcional Metabólica
+
+  status:
+    '00':
+      title: Sem disfunção metabólica
+
+    '01':
+      title: Com disfunção metabólica
+
+  assessment: file://./cbdf-d10-assessment.yml
+
+S01:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Neuroperiférica
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional neuroperiférica
+
+    '01':
+      title: Com risco de deficiência cinético-funcional neuroperiférica
+
+  assessment: file://./cbdf-s01-assessment.yml
+
+S02:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Neurocentral
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional neurocentral
+
+    '01':
+      title: Com risco de deficiência cinético-funcional neurocentral
+
+  assessment: file://./cbdf-s02-assessment.yml
+
+S03:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Músculoesquelético
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional músculoesquelética
+
+    '01':
+      title: Com risco de deficiência cinético-funcional músculoesquelética
+
+  assessment: file://./cbdf-s03-assessment.yml
+
+S04:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Respiratória
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional respiratória
+
+    '01':
+      title: Com risco de deficiência cinético-funcional respiratória
+
+  assessment: file://./cbdf-s04-assessment.yml
+
+S05:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Cardiovascular
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional cardiovascular
+
+    '01':
+      title: Com risco de deficiência cinético-funcional cardiovascular
+
+  assessment: file://./cbdf-s05-assessment.yml
+
+S06:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Tegumentar
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional tegumentar
+
+    '01':
+      title: Com risco de deficiência cinético-funcional tegumentar
+
+  assessment: file://./cbdf-s06-assessment.yml
+
+S07:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Urinária
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional urinária
+
+    '01':
+      title: Com risco de deficiência cinético-funcional urinária
+
+  assessment: file://./cbdf-s07-assessment.yml
+
+S08:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Genital
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional genital
+
+    '01':
+      title: Com risco de deficiência cinético-funcional genital
+
+  assessment: file://./cbdf-s08-assessment.yml
+
+S09:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         \corpo - Digestória
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional digestória
+
+    '01':
+      title: Com risco de deficiência cinético-funcional digestória
+
+  assessment: file://./cbdf-s09-assessment.yml
+
+S10:
+  title: Saúde cinético-funcional, sem alterações de estrutura e função do
+         corpo - Metabólica
+
+  type: Risco
+
+  status:
+    '00':
+      title: Sem risco de deficiência cinético-funcional metabólica
+
+    '01':
+      title: Com risco de deficiência cinético-funcional metabólica
+
+  assessment: file://./cbdf-s10-assessment.yml

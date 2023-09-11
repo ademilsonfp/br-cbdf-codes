@@ -1,0 +1,57 @@
+{
+  "name": "br-cbdf-codes",
+  "version": "1.0.0",
+  "description": "Códigos da CBDF (COFFITO) em formato reutilizável (YAML)",
+  "author": "BR-CBDF-Codes contributors",
+  "license": "LGPL-3.0-or-later",
+  "keywords": [
+    "CBDF",
+    "COFFITO",
+    "Classificação Brasileira de Diagnósticos Fisioterapêuticos",
+    "Conselho Federal de Fisioterapia e Terapia Ocupacional"
+  ],
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.cts",
+  "exports": {
+    "require": {
+      "types": "./lib/index.d.cts",
+      "default": "./lib/index.cjs"
+    },
+    "import": {
+      "types": "./lib/index.d.mts",
+      "default": "./lib/index.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademilsonfp/br-cbdf-codes.git"
+  },
+  "scripts": {
+    "build:lib": "pkgroll --src ts --dist lib",
+    "build:schemas": "tsx ts/build.ts schemas",
+    "build:codes": "tsx ts/build.ts codes",
+    "test:def": "tsx ts/test.ts",
+    "test:api": "c8 -r text -r html -n ts/index.ts ava"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "ajv": "^8.12.0",
+    "ava": "^5.3.1",
+    "c8": "^8.0.1",
+    "commander": "^11.0.0",
+    "pkgroll": "^1.11.0",
+    "ts-json-schema-generator": "^1.3.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "yaml": "^2.3.2"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=tsx"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Alteração das funções de bexiga
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração das funções de bexiga
+
+    '1':
+      title: Com risco de alteração das funções de bexiga
+
+- title: Alteração da função muscular assoalho pélvico
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração função muscular assoalho pélvico
+
+    '1':
+      title: Com risco de alteração função muscular assoalho pélvico
+
+      subqualifier:
+        '0':
+          title: Alteração de força
+
+        '1':
+          title: Alteração de coordenação
+
+        '2':
+          title: Alteração de relaxamento
+
+        '3':
+          title: Alteração de resistência
+
+        '4':
+          title: Alteração de tônus
+
+        '5':
+          title: Ausência de contração
+
+        '6':
+          title: Associação de mais de uma
+
+- title: Alteração das funções de sensação urinária
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração funções de sensação urinária
+
+    '1':
+      title: Com risco de alteração funções de sensação urinária
+
+      subqualifier:
+        '0':
+          title: Aumento sensação enchimento bexiga
+
+        '1':
+          title: Diminuição sensação enchimento bexiga
+
+        '2':
+          title: Ausência sensação enchimento e desejo urinar
+
+        '3':
+          title: Dor e ardência urinar
+
+        '4':
+          title: Sensação esvaziamento incompleto da urina
+
+- title: Alteração da função de continência urinária
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração continência urinária
+
+    '1':
+      title: Com risco de alteração continência urinária
+
+      subqualifier:
+        '0':
+          title: Alteração de esforço
+
+        '1':
+          title: Alteração de urgência
+
+        '2':
+          title: Alteração de esforço e urgência
+
+        '3':
+          title: Outros tipos de alteração

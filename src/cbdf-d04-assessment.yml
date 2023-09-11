@@ -1,0 +1,238 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Oxigenação
+  cif: [b4301]
+
+  note : >-
+    Este caracterizador funcional pode ser avaliado com o indivíduo em repouso
+    ou durante esforço ou sono.
+
+  qualifier:
+    '0':
+      title: Oxigenação normal
+
+    '4':
+      title: Baixa oxigenação
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+    '8':
+      title: 'Oxigenação: Não especificada'
+
+    '9':
+      title: 'Oxigenação: Não aplicável'
+
+- title: Desconforto respiratório
+  cif: [b449]
+
+  note : >-
+    Este caracterizador funcional pode ser avaliado com o indivíduo em repouso
+    ou durante esforço ou sono.
+
+  qualifier:
+    '0':
+      title: Sem desconforto respiratório
+
+    '1':
+      title: Leve desconforto respiratório
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+    '2':
+      title: Moderado desconforto respiratório
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+    '3':
+      title: Grave desconforto respiratório
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+    '4':
+      title: Completo desconforto respiratório
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+    '8':
+      title: 'Desconforto respiratório: Não especificada'
+
+    '9':
+      title: 'Desconforto respiratório: Não aplicável'
+
+- title: Volume de Expansão Pulmonar (VEP)
+  cif: [b4402]
+
+  qualifier:
+    '0':
+      title: Sem redução do volume de expansão pulmonar (≥96% do previsto)
+
+    '1':
+      title: Leve redução do volume de expansão pulmonar (76-95% do previsto)
+
+      subqualifier:
+        '0':
+          title: Componente recrutável
+
+        '1':
+          title: Componente não recrutável
+
+    '2':
+      title: Moderada redução do volume de expansão pulmonar (51-75% do
+             previsto)
+
+      subqualifier:
+        '0':
+          title: Componente recrutável
+
+        '1':
+          title: Componente não recrutável
+
+    '3':
+      title: Grave redução do volume de expansão pulmonar (5-50% do previsto)
+
+      subqualifier:
+        '0':
+          title: Componente recrutável
+
+        '1':
+          title: Componente não recrutável
+
+    '4':
+      title: Completa redução do volume de expansão pulmonar (0-4% do previsto)
+
+      subqualifier:
+        '0':
+          title: Componente recrutável
+
+        '1':
+          title: Componente não recrutável
+
+    '8':
+      title: 'VEP: Não especificada'
+
+    '9':
+      title: 'VEP: Não aplicável'
+
+- title: Força Muscular Respiratória (FMR)
+  cif: [b445]
+
+  note : >-
+    Este caracterizador funcional pode ser avaliado para a força inspiratória e
+    ou a força expiratória, designados em subtópicos: Inspiratória; Expiratória;
+    Inspiratória e Expiratória.
+
+  qualifier:
+    '0':
+      title: Sem redução de força muscular respiratória (≥96%% do previsto)
+
+    '1':
+      title: Leve redução de força muscular respiratória (76-95% do previsto)
+
+      subqualifier:
+        '0':
+          title: Inspiratória
+
+        '1':
+          title: Expiratória
+
+        '2':
+          title: Inspiratória e expiratória
+
+    '2':
+      title: Moderada redução de força muscular respiratória (51-75% do
+             previsto)
+
+      subqualifier:
+        '0':
+          title: Inspiratória
+
+        '1':
+          title: Expiratória
+
+        '2':
+          title: Inspiratória e expiratória
+
+    '3':
+      title: Grave redução de força muscular respiratória (5-50% do previsto)
+
+      subqualifier:
+        '0':
+          title: Inspiratória
+
+        '1':
+          title: Expiratória
+
+        '2':
+          title: Inspiratória e expiratória
+
+    '4':
+      title: Completa redução de força muscular respiratória (0-4% do previsto)
+
+      subqualifier:
+        '0':
+          title: Inspiratória
+
+        '1':
+          title: Expiratória
+
+        '2':
+          title: Inspiratória e expiratória
+
+    '8':
+      title: 'FMR: Não especificada'
+
+    '9':
+      title: 'FMR: Não aplicável'

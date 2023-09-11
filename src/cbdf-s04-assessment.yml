@@ -1,0 +1,87 @@
+# Este arquivo é parte do programa BR-CBDF-Codes
+# 
+# BR-CBDF-Codes é um software livre; você pode redistribuí-lo e/ou
+# modificá-lo dentro dos termos da Licença Pública Geral Menor GNU como
+# publicada pela Free Software Foundation (FSF); na versão 3 da
+# Licença, ou (a seu critério) qualquer versão posterior.
+# 
+# Este programa é distribuído na esperança de que possa ser útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO
+# a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral Menor GNU para maiores detalhes.
+# 
+# Você deve ter recebido uma cópia da Licença Pública Geral Menor GNU junto
+# com este programa, Se não, veja <http://www.gnu.org/licenses/lgpl-3.0.html>.
+
+- title: Alteração de oxigenação
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de oxigenação
+
+    '1':
+      title: Com risco de alteração de oxigenação
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+- title: Desconforto respiratório
+
+  qualifier:
+    '0':
+      title: Sem risco de desconforto respiratório
+
+    '1':
+      title: Com risco de desconforto respiratório
+
+      subqualifier:
+        '0':
+          title: Repouso
+
+        '1':
+          title: Esforço
+
+        '2':
+          title: Sono
+
+- title: Alteração de volume de expansão pulmonar
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de volume de expansão pulmonar
+
+    '1':
+      title: Com risco de alteração de volume de expansão pulmonar
+
+      subqualifier:
+        '0':
+          title: Componente recrutável
+
+        '1':
+          title: Componente não recrutável
+
+- title: Alteração de força muscular respiratória
+
+  qualifier:
+    '0':
+      title: Sem risco de alteração de força muscular respiratória
+
+    '1':
+      title: Com risco de alteração de força muscular respiratória
+
+      subqualifier:
+        '0':
+          title: Inspiratória
+
+        '1':
+          title: Expiratória
+
+        '2':
+          title: Inspiratória e expiratória
