@@ -5,5 +5,5 @@
 /ts
 /.gitignore
 /tsconfig.json
-/cbdf-schema.json
+/cbdf-*-schema.json
 /*.tgz
